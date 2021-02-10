@@ -1,6 +1,6 @@
 <?php
  {
-echo '<link rel="shortcut icon" href="https://i.ibb.co/80N7zMc/1607563148-picsay.png">';
+echo '<link rel="shortcut icon" href="https://i.ibb.co/pZ8WJFW/p.png">';
 echo '<center>';
 echo '<br><br><br><img height="200" src="https://i.ibb.co/pZ8WJFW/p.png"></a>
 ';
